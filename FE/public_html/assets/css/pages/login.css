@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --borders: #e6e6e6;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(248, 248, 248);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-size: auto;
+  color: #444;
+  display: block;
+  font-family: Nunito, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.login-content {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-wrap {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.top-nav-branding {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: .5rem 0;
+}
+
+.top-nav-branding img {
+  height: 80px;
+}
+
+.login-form-wrap {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex: 1;
+}
+
+.form-content-wrap {
+  min-width: 400px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid var(--borders);
+  border-radius: 2px;
+  margin: auto;
+  width: 100%;
+}
+
+.headline {
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: unset;
+}
+
+.login-text {
+  padding-bottom: 10px;
+}
+
+.tml {
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+.tml .tml-errors, .tml .tml-messages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tml .tml-action-confirmaction .success, .tml .tml-error, .tml .tml-message, .tml .tml-success {
+  border-left: 4px solid #00a0d2;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .1);
+  display: block;
+  margin: 0 0 1em;
+  padding: .75em;
+}
+
+.tml .tml-error {
+  box-shadow: none;
+  border-left: 4px solid #FA3E3E;
+}
+
+.tml .tml-field-wrap {
+  margin-bottom: 1em;
+}
+
+.tml .tml-field, input#email.tml-field, input#url.tml-field, input#pass1.tml-field, input#pass2.tml-field, input#user_pass.tml-field {
+  padding: 7px;
+  border: 1px solid var(--borders);
+  border-radius: 2px;
+}
+
+.tml .tml-field {
+  width: 100%;
+}
+
+button.add-item-button, div.download-wrap > a, a.download-wrap, button.tml-button, button.facetwp-load-more {
+  background: #1f5cae;
+  color: white;
+  border: none;
+  padding: 8px 15px 8px 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 200ms ease;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  width: 120px;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.tml-label {
+  display: block;
+  margin: .5em 0;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 479px) {
+  .login-wrap {
+    width: auto;
+    margin: 0 10px;
+  }
+}

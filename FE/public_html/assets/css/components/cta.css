@@ -1,0 +1,93 @@
+.component_cta {
+  grid-column-gap: 5rem;
+  grid-row-gap: 4rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items: end;
+  display: grid;
+  position: relative;
+}
+
+.img_cta {
+  z-index: 2;
+  object-fit: fill;
+  object-position: 50% 0;
+  width: auto;
+  height: 42rem;
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 2.125rem;
+}
+
+.section_cta {
+  background-color: var(--primary--3);
+  background-image: url(/assets/imgs/elips.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: auto 37rem;
+}
+
+
+/** DESKTOP **/
+@media screen and (max-width: 991px) {
+
+  .component_cta {
+    grid-row-gap: 4rem;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    height: 26.25rem;
+    min-height: auto;
+  }
+
+  .content_cta {
+    max-width: 19rem;
+  }
+
+  .img_cta {
+    height: 27.875rem;
+  }
+}
+
+
+/** TABLET **/
+@media screen and (max-width: 767px) {
+
+  .component_cta {
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    display: flex;
+  }
+
+  .image-wrapper_cta {
+    justify-content: center;
+    width: 26rem;
+    display: flex;
+    position: relative;
+  }
+
+  .img_cta {
+    position: static;
+  }
+
+}
+
+
+/** MOBILE **/
+@media screen and (max-width: 479px) {
+
+  .component_cta {
+    grid-template-columns: 1fr;
+  }
+
+  .img_cta {
+    object-fit: fill;
+    height: auto;
+  }
+}

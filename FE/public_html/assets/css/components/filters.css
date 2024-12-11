@@ -1,0 +1,22 @@
+.layout_filters {
+  grid-column-gap: 3rem;
+  justify-content: space-between;
+  display: flex;
+}
+
+/* TABLET */
+@media screen and (max-width: 767px) {
+  .layout_filters.news {
+    grid-row-gap: .533rem;
+    flex-direction: column;
+  }
+}
+
+/** MOBILE */
+@media screen and (max-width: 479px) {
+  .layout_filters.campaign, .layout_filters.news {
+    grid-row-gap: .533rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

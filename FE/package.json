@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "build": "mix build"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "axios": "^0.25",
+    "laravel-mix": "^6.0.49",
+    "laravel-vite-plugin": "^0.2.1",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "sass": "^1.55.0",
+    "vite": "^2.9.11",
+    "vue-router": "^4.1.5",
+    "vuetify": "^3.6.14"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "material-design-icons-iconfont": "^6.7.0",
+    "moment": "^2.30.1",
+    "pinia": "^2.2.1",
+    "vite-plugin-vuetify": "^1.0.0",
+    "vue": "^3.2.36",
+    "vue-loader": "^17.0.0",
+    "vue-tabler-icons": "^2.21.0",
+    "vue3-perfect-scrollbar": "^2.0.0"
+  }
+}

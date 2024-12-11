@@ -1,0 +1,36 @@
+.game-demo__iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.text-color-grey {
+  color: #999;
+}
+
+.game__description {
+  line-height: 1.4rem;
+}
+
+.game__description p {
+  margin-bottom: .5rem;
+}
+
+.game__description ul {
+  margin-left: 1rem;
+}
+
+.game-options__list li {
+  display: flex;
+  align-items: center;
+}
+
+.game-options__list li::before {
+  content: '';
+  background: rgb(var(--v-theme-primary));
+  width: .5rem;
+  height: .5rem;
+  display: inline-block;
+  margin-right: .5rem;
+}

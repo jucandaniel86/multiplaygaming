@@ -1,0 +1,7 @@
+.page-breadcrumb .v-toolbar {
+  background: transparent
+}
+
+.v-card--variant-elevated, .v-card--variant-flat {
+  background: transparent !important;
+}

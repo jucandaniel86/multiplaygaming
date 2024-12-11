@@ -1,0 +1,446 @@
+.wrap-header_career {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 41.5rem;
+  display: flex;
+}
+
+.layout_position {
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 4rem;
+  grid-template: "text text text text video video" / 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items: start;
+  justify-items: start;
+  display: grid;
+}
+
+.component_video-position {
+  grid-row-gap: 1.5rem;
+  flex-direction: column;
+  width: 22.5rem;
+  height: 108%;
+  display: flex;
+  position: relative;
+  top: -13.125rem;
+}
+
+.wrap-cards_career {
+  grid-row-gap: 1.5rem;
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.item_hr {
+  grid-row-gap: 2rem;
+  border: 1.2px solid var(--theme--2);
+  background-color: #fff;
+  border-radius: .75rem;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.text_hr {
+  grid-column-gap: 0;
+  grid-row-gap: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.person_hr {
+  grid-column-gap: 1rem;
+  display: flex;
+}
+
+.img_hr {
+  border-radius: 100%;
+  width: 4.25rem;
+  min-width: 4.25rem;
+  height: 4.25rem;
+  min-height: 4.25rem;
+}
+
+.person-name_hr {
+  grid-row-gap: .125rem;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.link_hr {
+  grid-column-gap: .375rem;
+  color: var(--secondary--3);
+  cursor: pointer;
+  align-items: center;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  text-decoration: none;
+  transition: opacity .13s;
+  display: flex;
+}
+
+.wrap-share_hr {
+  grid-row-gap: 1rem;
+  background-color: var(--theme--2);
+  border-radius: .75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 1.375rem;
+  display: flex;
+}
+
+.icon_wrap-social-hr {
+  background-color: var(--theme--3);
+  color: var(--theme--4);
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: all .13s;
+  display: flex;
+}
+
+.icon_wrap-social-hr:hover {
+  background-color: var(--secondary--3);
+  color: #fff;
+}
+
+.icon_wrap-social-hr:hover .icon-black {
+  fill: #fff;
+}
+
+.icon_wrap-social-hr:focus .icon-black {
+  fill: #fff;
+}
+
+.wrapper_social-links-hr {
+  grid-column-gap: .5rem;
+  display: flex;
+}
+
+.item_video {
+  background-color: var(--theme--1);
+  border-radius: .75rem;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.button-wrap_form-contact {
+  grid-column-gap: .75rem;
+  grid-row-gap: .75rem;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  display: flex;
+}
+
+.button-wrap_form-contact.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8rem;
+}
+
+.component_body-position {
+  grid-row-gap: 1.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 41.5rem;
+  display: flex;
+}
+
+.heading_body-position {
+  border-bottom: 1px solid var(--theme--3);
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 1.625rem;
+  display: flex;
+}
+
+.wrap_career-details {
+  align-items: center;
+  display: flex;
+}
+
+.item_game-features {
+  grid-column-gap: 1.375rem;
+  align-items: center;
+  display: flex;
+}
+
+.data_game-details {
+  grid-row-gap: .375rem;
+  white-space: nowrap;
+  flex-direction: column;
+  display: flex;
+}
+
+.line-vertical_game-details {
+  background-color: var(--theme--3);
+  width: 1px;
+  height: 1.75rem;
+  margin-left: 1.375rem;
+}
+
+.component_cta-career {
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 4rem;
+  grid-template: "text text text img img" / 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  display: grid;
+}
+
+.wrap_form-contact {
+  border-radius: .75rem;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+  padding: 2.5rem 3.25rem;
+  display: flex;
+}
+
+.w-form {
+  margin: 0 0 15px;
+}
+
+.form_component-clients {
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.form_contact {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex-direction: column;
+  display: flex;
+}
+
+.form_contact.career {
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+}
+
+.form-wrap_contact {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  display: flex;
+}
+
+.form_field-wrapper {
+  flex: 1 0 auto;
+  width: auto;
+}
+
+._100 {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.hs-input {
+  border: 1px solid var(--theme--3);
+  background-color: #fff;
+  border-radius: .5rem;
+  width: 100%;
+  min-height: 2.625rem;
+  margin-bottom: 0;
+  margin-right: .5rem;
+  padding: .625rem 1rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+
+select.hs-input {
+  appearance: none;
+  background-image: url(/assets/imgs/chevron-down.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 1rem auto;
+}
+
+.hs-input {
+  background-color: #F8F7FC;
+}
+
+.item_upload {
+  margin-top: .75rem;
+  margin-bottom: 0;
+}
+
+.w-file-upload-default.w-hidden, .w-file-upload-uploading.w-hidden, .w-file-upload-error.w-hidden, .w-file-upload-success.w-hidden {
+  display: none;
+}
+
+.w-file-upload-input {
+  opacity: 0;
+  z-index: -100;
+  width: .1px;
+  height: .1px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.upload_state {
+  width: 100%;
+}
+
+.button.color_theme {
+  background-color: var(--theme--2);
+  color: var(--tertiary--1);
+  white-space: nowrap;
+}
+
+.w-icon-file-upload-uploading {
+  height: 20px;
+}
+
+.w-icon-file-upload-icon, .w-icon-file-upload-uploading {
+  width: 20px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.form_contact.career {
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+}
+
+/** DESKTOP **/
+@media screen and (max-width: 991px) {
+  .layout_position {
+    grid-row-gap: 4rem;
+    grid-template:
+        "text"
+        "video" / 1fr;
+    grid-auto-flow: row;
+    min-height: auto;
+  }
+
+  .component_video-position {
+    width: 100%;
+    height: auto;
+    top: 0;
+  }
+
+  .wrap-cards_career {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    flex-direction: row;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+  }
+
+  .button-wrap_form-contact.sticky {
+    position: static;
+  }
+
+  .component_cta-career {
+    grid-column-gap: 1rem;
+    grid-row-gap: 2.8rem;
+    grid-template:
+        "text text text"
+        "img img img" / 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    min-height: auto;
+  }
+
+  .form_contact {
+    grid-row-gap: 0rem;
+  }
+
+}
+
+/** TABLET **/
+@media screen and (max-width: 767px) {
+  .component_cta-career, .layout_position {
+    grid-row-gap: 3rem;
+  }
+
+  .component_body-position, .component_video-position {
+    width: 100%;
+  }
+
+  .wrap-cards_career {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .component_body-position, .component_video-position {
+    width: 100%;
+  }
+
+  .wrap_career-details {
+    grid-column-gap: 1.467rem;
+    grid-row-gap: 1.467rem;
+    flex-wrap: wrap;
+  }
+
+  .component_cta-career, .layout_position {
+    grid-row-gap: 3rem;
+  }
+
+  .wrap_form-contact {
+    padding: 2.133rem 1.8rem;
+  }
+
+}
+
+/** MOBILE **/
+@media screen and (max-width: 479px) {
+  .section_position.mobile-margin-small {
+    padding-top: 1.6rem;
+  }
+
+  .layout_position {
+    grid-template-columns: 1fr;
+  }
+
+  .component_video-pisition {
+    width: 100%;
+  }
+
+  .wrapper_social-links-hr {
+    justify-content: center;
+  }
+
+  .wrap_career-details {
+    grid-column-gap: 1.8rem;
+    grid-row-gap: 1.6rem;
+    flex-flow: wrap;
+    align-items: flex-start;
+  }
+
+  .hide-mobile-portrait {
+    display: none;
+  }
+
+  .line-vertical_game-details {
+    margin-left: 1.467rem;
+  }
+
+  .component_cta-career {
+    grid-template-columns: 1fr;
+  }
+
+  .wrap_form-contact {
+    padding: 2.133rem 1.6rem;
+  }
+}

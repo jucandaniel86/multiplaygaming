@@ -1,0 +1,330 @@
+@media screen and (max-width: 479px) {
+  .button.is-small.is-icon.filter {
+    height: 2.8rem;
+    padding-top: .933rem;
+    padding-bottom: .933rem;
+    font-size: .867rem;
+  }
+
+  .button.is-text-icon.is-small {
+    padding: .2rem 0;
+  }
+}
+
+
+.w-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #3898ec;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button.is-small.is-icon.filter {
+  z-index: 1;
+  border: 1px solid var(--theme--3);
+  color: var(--tertiary--1);
+  background-color: transparent;
+  height: 2.625rem;
+}
+
+.button.is-small.filter {
+  border: 1px solid var(--theme--3);
+  color: var(--tertiary--1);
+  background-color: transparent;
+}
+
+.icon_button-text {
+  margin-top: .1rem;
+  transition: all .12s;
+}
+
+.icon_button-text.animated {
+  transform: translate(-.5rem);
+}
+
+.button.is-text:hover .icon-black {
+  opacity: 100%;
+  transform: translateX(1.25em);
+  transition-duration: 130ms;
+  transition-timing-function: ease-in;
+}
+
+.button:hover .icon-primary {
+  fill: #FFFFFF;
+}
+
+.button-group {
+  grid-column-gap: .75rem;
+  grid-row-gap: .75rem;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.card_button:hover .icon-black {
+  transform: translateX(1.25em);
+  transition-duration: 160ms;
+  transition-timing-function: ease-in;
+}
+
+.button.is-small.color-primary {
+  background-color: var(--primary--3);
+  color: var(--tertiary--1);
+}
+
+button.color_primary.is-disabled.is-small {
+  cursor: default;
+  flex: none;
+}
+
+.button.color_primary.is-disabled {
+  background-color: var(--primary--2);
+  cursor: default;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: var(--primary--2) !important;
+  cursor: default;
+  pointer-events: none;
+}
+
+.button.color_primary {
+  background-color: var(--primary--3);
+  color: var(--tertiary--1);
+}
+
+.button.is-small.color-primary.data-process {
+  display: none;
+}
+
+.button.is-legal {
+  color: var(--tertiary--1);
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  font-size: .813rem;
+  line-height: .813rem;
+}
+
+@media screen and (max-width: 479px) {
+  .button.is-icon {
+    padding-top: .867rem;
+    padding-bottom: .867rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .button.is-small {
+    padding: 1.067rem 1.333rem;
+    font-size: .933rem;
+    line-height: .933rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .button.is-small {
+    align-items: center;
+  }
+
+  .button.is-text-icon.is-small.nav {
+    font-size: 1rem;
+  }
+}
+
+.button.is-icon {
+  grid-column-gap: .625rem;
+  grid-row-gap: .625rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: .813rem;
+  padding-bottom: .813rem;
+  text-decoration: none;
+  display: flex;
+}
+
+.button.is-text {
+  grid-column-gap: .375rem;
+  grid-row-gap: .375rem;
+  color: var(--tertiary--1);
+  background-color: transparent;
+  border-radius: 0;
+  align-items: center;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+}
+
+.button.is-small {
+  padding: .875rem 1rem;
+  font-size: .813rem;
+  line-height: .875rem;
+}
+
+@media screen and (max-width: 479px) {
+  .button.is-text {
+    font-size: .867rem;
+    line-height: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .button.is-text {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: .813rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .button {
+    padding: 1.067rem 1.333rem;
+    font-size: .933rem;
+    line-height: .933rem;
+  }
+}
+
+.button {
+  background-color: var(--tertiary--1);
+  color: var(--primary--3);
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: .5rem;
+  margin-left: 0;
+  padding: 1rem 1.25rem;
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: .875rem;
+  text-decoration: none;
+  transition: all .14s ease-in-out;
+}
+
+.button:not(.is-text):hover {
+  background-color: var(--secondary--3);
+  color: #fff;
+}
+
+.button.is-large.color-primary-alt {
+  color: var(--primary--3);
+}
+
+.button.is-large {
+  padding: 1.25rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.button.is-text-arrow {
+  grid-column-gap: .625rem;
+  grid-row-gap: 1rem;
+  color: var(--tertiary--1);
+  background-color: transparent;
+  border-style: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+}
+
+.icon-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button.is-small.filter:focus, .button.is-small.filter.w--current {
+  border-color: var(--primary--3);
+  background-color: var(--primary--3);
+}
+
+.button.is-small.filter.game-type, .button.is-small.filter.article-type {
+  white-space: nowrap;
+  align-items: center;
+  display: flex;
+}
+
+.button.is-text-icon.is-small {
+  align-items: center;
+}
+
+.button.is-text-icon {
+  grid-column-gap: .375rem;
+  grid-row-gap: 1rem;
+  color: var(--tertiary--1);
+  background-color: transparent !important;
+  border-style: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 0;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+}
+
+.button.is-text-icon:hover {
+  color: var(--secondary--3);
+}
+
+/** TABLET **/
+@media screen and (max-width: 767px) {
+
+  .button {
+    padding: 1.143rem 1.429rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .button.is-text {
+    font-size: .929rem;
+  }
+
+  .button.is-text-arrow {
+    margin-top: .8rem;
+  }
+
+  .button.is-icon {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .button.is-text-icon.is-small {
+    font-size: .867rem;
+    line-height: .867933rem;
+  }
+
+  .button.is-text-icon.is-small.nav {
+    font-size: .933rem;
+    line-height: .933rem;
+  }
+
+  .button.is-small.is-icon.filter, .button.is-small.is-icon.filter-trigger {
+    padding-top: .867rem;
+    padding-bottom: .867rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .icon_button-text {
+    justify-content: center;
+    align-items: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+  }
+}

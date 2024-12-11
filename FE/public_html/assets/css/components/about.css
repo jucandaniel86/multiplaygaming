@@ -1,0 +1,130 @@
+.component_about-us {
+  background-color: var(--primary--3);
+  background-image: url(/assets/imgs/elips.png);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  border-radius: .75rem;
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap-img_about-us {
+  width: 37.5rem;
+  height: 37.5rem;
+  position: absolute;
+  top: -6.25rem;
+  bottom: auto;
+  left: auto;
+  right: -8.375rem;
+}
+
+.img_about-us {
+  height: 100%;
+  transform: rotate(14deg);
+}
+
+.wrap-text_about-us {
+  padding: 3.5rem;
+}
+
+.heading_about-us {
+  max-width: 33.25rem;
+}
+
+/* DESKTOP */
+@media screen and (max-width: 991px) {
+  .component_about-us {
+    justify-content: center;
+    height: 29.375rem;
+  }
+
+  .wrap-img_about-us {
+    width: 34.25rem;
+    height: 34.25rem;
+    top: auto;
+    bottom: 0;
+    left: 26.5rem;
+    right: 0;
+  }
+
+  .img_about-us {
+    top: auto;
+    bottom: 0;
+    left: 26rem;
+    right: 0;
+  }
+
+  .wrap-text_about-us {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    padding-left: 2.625rem;
+    display: flex;
+  }
+
+  .heading_about-us {
+    max-width: 22rem;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 767px) {
+  .component_about-us {
+    justify-content: flex-start;
+    height: 44rem;
+  }
+
+  .wrap-img_about-us {
+    width: 44rem;
+    min-width: 44rem;
+    height: 44rem;
+    top: auto;
+    bottom: -66%;
+    left: 17%;
+    right: auto;
+  }
+
+  .img_about-us {
+    top: auto;
+    bottom: -53%;
+    left: 9%;
+    right: auto;
+  }
+
+  .wrap-text_about-us {
+    grid-row-gap: 2.5rem;
+    justify-content: flex-start;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 479px) {
+  .component_about-us {
+    height: auto;
+  }
+
+  .wrap-img_about-us {
+    width: 40rem;
+    min-width: 40rem;
+    height: auto;
+    bottom: -17.1rem;
+    left: -2.5rem;
+  }
+
+  .img_about-us {
+    bottom: -14rem;
+    left: -2.2rem;
+  }
+
+  .wrap-text_about-us {
+    grid-column-gap: 1.333rem;
+    grid-row-gap: 1.333rem;
+    padding: 3rem 2rem 30rem;
+  }
+}

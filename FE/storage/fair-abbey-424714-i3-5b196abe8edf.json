@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fair-abbey-424714-i3",
+  "private_key_id": "5b196abe8edfc6763d88e13a2465ad7ab6ad4266",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAfaAN1GTkIoh8\nJXmY6CVNCZfk/6eb2KxgSxPx9Y4m3Xn/1CfRbTJycs1J0LgbR1V6pujSeULyD2/s\nkZVNASy7OIGInXbg+TJOFptvlWh2NsfGNFSi/HjwtIKnJkGmXnezHYZvVcSGS0+V\nI2O5c1sNqTC1tC/rRzXDC11rSOF6dlc2Y1U50jMV0AAxnp34Vvtf9/PJtiD28B5v\nKN9bJFbUAwKsoaz5JSnAfMvgU29qT6pfjn3QvwYge4cZOtg2JiUmGXLui2Gmv6Wg\nAohHaqS03csPSxU5oriah+dQ0cqW/u0hQnISqQOeI9MqCW0GNKQEM7vVUzS2K3BG\nsAUTjZjnAgMBAAECggEALIaCmOBZ7Bl+17S1cWS1iCHhdFOcuiR/DxEezne+B4hw\nmXhCM6PeKPIcQWhZxdmU0Le+ID1zelmOyrqMPhE4/x+devPtlTGfbMe28bMuRDX8\ntQDS2RashQVEOZTUV77/UjvQpn1A5c2S3Y0fmryvwbOytD03XmWM7o548AGeQnyp\nLXDcZC8VzBY4CE4nyvq0XgN7yZ1eHsihm8nffPD8LUh6p22inevMqdjTzF2/OLcc\nzAgxuXyPSY3bn+LW0VegEDaDsf5kauFxqw+acj5v30wXHv+nTZsd/vhREUoktX7D\nK7J2HFWDp+R+pkThOJeyG60D/8WmVGthr36oLnUYDQKBgQDyStzYUoC4DytA7D5w\nNXmmYrr8sMTX3GA8Bruvl9akFDBJuGp30wp690BISWfhrUhnTrL7p9CF4b6Xz2eb\nlouw1II7i0VWba+fdjbPvqCW+L610r8hM3ZMPYVYG4815PlHgETh+AW4bRus54Wr\ncY3GEGR0WtaHwv8aXeSsTVIDRQKBgQDLYXso1JUa88wZvBsRDy1r8YvdeDeILK17\nGjkAMfCW1r6nOV0K2qma9UlarWET9SweLG0A3FovdIvbmAnSJ9l0CvWGH653e0Mq\ndByACobBsDMjRKgDtTWs+vd2xUc1OvOb1+4wwSaonM+rekrSTKNgXXywnNmJOVxg\nqyRl3kz4OwKBgQCbXxpjtfRJE6EfDt+zQPdzlRhndkukSPOFSqQMpAfGTBPzEklj\n8XdlByy3rirpcx9c8ACilCiJ0gtQenXsNgv6JywkVtjt5YSbc0kOyyVb6sMRAcYC\n2mdf2IurxnB9lQmtqjmB1nSEoaL/q6/yEu1hN53TZ3TutkK0e8VqIGMZKQKBgFTD\ncgMYZnRvO5dWMKmxe6rLZxGMswhMJplx2mPcbHtRUPB9FewaKintJP9n11fsDNEe\njueW7vdsSYXiHeW6ugSFNMMLnTkq5FljPyWWPYeoGggO6z9wXMiVaGHV4tGqmjFP\nk3Q6bBRGFr9PHrP7QPQ+wmMRXBC3GWsoqOjT95xVAoGAUEs2RrUmEiYKDfra3iGT\nI3G3IIVxhuoKm+DRVKg2NcEBRmOC/pOFwXrtCgFSfAejf7kEF+fzfQZMC9aqu4s1\nZXHy8yymVLKMhUkF8pvsON7hgBuEOU/dl6DWv5Exh2aqI4kiUbttkAueT4qmRc3g\nKUe+LUnQRs2vIjVJukCs8Gk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "reportsbrowserbjsite@fair-abbey-424714-i3.iam.gserviceaccount.com",
+  "client_id": "109568452369715875920",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reportsbrowserbjsite%40fair-abbey-424714-i3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

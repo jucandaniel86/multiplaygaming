@@ -1,0 +1,78 @@
+@import "layout.css";
+@import "card.css";
+@import "index.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.v-list--density-default .v-list-subheader, .v-list-item--density-default.v-list-item--one-line {
+  min-height: auto !important;
+}
+
+.v-list-subheader.text-darkText {
+  color: var(--v-theme-on-surface) !important;;
+}
+
+.v-main::-webkit-scrollbar-track {
+  background: black; /* color of the tracking area */
+  scrollbar-track-color: transparent;
+}
+
+
+.custom-calendar.v-sheet {
+  background: transparent !important;
+  color: #000;
+}
+
+.custom-table {
+  background: transparent !important;
+  color: #000;
+}
+
+.custom-table thead {
+  background: rgb(var(--v-theme-primary));
+}
+
+.custom-table td {
+  color: #000;
+  border: none !important;
+  padding: 1.5rem 0;
+}
+
+.pa-0-table td {
+  padding: 0 !important;
+}
+
+.custom-table .v-data-table-footer {
+  color: #000;
+}
+
+.v-text-field.v-text-field--solo .v-input__control {
+  min-height: 10px;
+}
+
+
+.v-label.v-field-label, .v-label {
+  font-size: .7rem !important;
+}
+
+.v-main {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.scrollnavbar .v-list-group__items .v-list-item .v-list-item-title, .scrollnavbar .v-list-item .v-list-item-title {
+  font-size: 1rem !important;
+}
+
+.v-list-subheader__text {
+  font-size: 1.2rem !important;
+  padding: .5rem 0;
+}
+
+.v-list-item--active .v-list-item-title, .v-list-item--active .v-list-item__prepend {
+  color: #00a0d2 !important;
+}

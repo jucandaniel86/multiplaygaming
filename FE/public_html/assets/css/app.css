@@ -1,0 +1,33 @@
+/**
+0. General
+ */
+@import "reset.css";
+@import "fonts.css";
+@import "global.css";
+@import "buttons.css";
+
+@import "components/menu.css";
+@import "components/header.css";
+@import "components/featured-games.css";
+@import "components/weeks.css";
+@import "components/scrolled-content.css";
+@import "components/highlight-component.css";
+@import "components/paralax-component.css";
+@import "components/more-articles.css";
+@import "components/more-articles.css";
+
+@import "pages/contact.css";
+@import "pages/games.css";
+@import "pages/marketing.css";
+@import "pages/partners.css";
+@import "pages/about.css";
+@import "pages/articles.css";
+@import "pages/game-page.css";
+
+
+.open {
+  display: block;
+}
+
+
+
