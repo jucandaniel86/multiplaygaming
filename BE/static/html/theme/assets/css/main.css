@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500,600,700|Poppins:300,400,500,600,700,800,900|Josefin+Sans:wght@300;400;500;600;700|Abril+Fatface|Great+Vibe|Lobster&display=swap");
+
+@import url('app/global.css');
+@import url('app/layout.css');
+
+@import url('app/header.css');
+@import url('app/slider.css');
+@import url('app/banner.css');
+@import url('app/products.css');
+@import url('app/blog.css');
+@import url('app/footer.css');

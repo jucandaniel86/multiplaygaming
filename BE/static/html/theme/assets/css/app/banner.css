@@ -1,0 +1,137 @@
+/*----- 9. Banner style  -------*/
+.single-banner {
+  position: relative;
+  overflow: hidden;
+}
+.single-banner a img {
+  width: 100%;
+  /*-webkit-transform: scale(1);*/
+  /*        transform: scale(1);*/
+  /*-webkit-transition: all 0.5s ease 0s;*/
+  /*transition: all 0.5s ease 0s;*/
+}
+.single-banner:hover img {
+  /*-webkit-transform: scale(1.2);*/
+  /*        transform: scale(1.2);*/
+}
+.single-banner .banner-content {
+  position: absolute;
+  content: "";
+  left: 36px;
+  top: 40px;
+  z-index: 5;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-banner .banner-content {
+    left: 20px;
+    top: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-banner .banner-content {
+    left: 15px;
+    top: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .single-banner .banner-content {
+    left: 15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+.single-banner .banner-content h3 {
+  font-size: 36px;
+  color: #915342;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Cormorant Garamond";
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-banner .banner-content h3 {
+    font-size: 27px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .single-banner .banner-content h3 {
+    font-size: 30px;
+  }
+}
+.single-banner .banner-content h4 {
+  font-size: 18px;
+  color: #010101;
+  margin: 3px 0 58px;
+  font-weight: 600;
+  font-family: "Cormorant Garamond";
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-banner .banner-content h4 {
+    margin: 3px 0 25px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-banner .banner-content h4 {
+    margin: 3px 0 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-banner .banner-content h4 {
+    margin: 3px 0 8px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .single-banner .banner-content h4 {
+    margin: 3px 0 20px;
+  }
+}
+.single-banner .banner-content h4 span {
+  color: #935644;
+  font-size: 20px;
+  margin: 0 0px 0 2px;
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+  top: 2px;
+}
+.single-banner .banner-content a {
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  border: 2px solid #97584a;
+  color: #97584a;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+}
+.single-banner .banner-content a.kids-btn-red {
+  color: #ff3d2a;
+  border: 2px solid #ff3d2a;
+}
+.single-banner .banner-content a.kids-btn-red:hover {
+  color: #a749ff;
+  border: 2px solid #a749ff;
+}
+.single-banner .banner-content a i {
+  line-height: 25px;
+}
+.single-banner .banner-content a:hover {
+  color: #a749ff;
+  border: 2px solid #a749ff;
+}
+.single-banner .banner-content.banner-pink a {
+  border: 2px solid #ed59a0;
+  color: #ed59a0;
+}
+.single-banner .banner-content.banner-pink a:hover {
+  color: #a749ff;
+  border: 2px solid #a749ff;
+}
+.single-banner .banner-content.banner-content1-modify-position1 {
+  left: auto;
+  right: 60px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: right;
+}

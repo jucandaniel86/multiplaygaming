@@ -1,0 +1,5 @@
+<template>
+  <div class="container-fluid position-relative d-flex p-0">
+    <Nuxt />
+  </div>
+</template>

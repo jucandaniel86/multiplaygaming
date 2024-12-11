@@ -1,0 +1,86 @@
+export const INVOICES_REPORT_HEADERS = [
+  {
+    text: "Client Name",
+    align: "start",
+    sortable: false,
+    value: "client_name",
+  },
+  {
+    text: "Brand",
+    align: "start",
+    sortable: false,
+    value: "brand",
+  },
+  {
+    text: "Total Bets",
+    align: "start",
+    sortable: false,
+    value: "total_bets",
+  },
+  {
+    text: "Total Wins",
+    align: "start",
+    sortable: false,
+    value: "total_wins",
+  },
+  {
+    text: "Total Refunds (€)",
+    align: "start",
+    sortable: false,
+    value: "total_refunds",
+  },
+  {
+    text: "Total Refund",
+    align: "start",
+    sortable: false,
+    value: "total_refunds_native",
+  },
+  {
+    text: "Tax",
+    align: "start",
+    sortable: false,
+    value: "tax",
+  },
+  {
+    text: "GGR",
+    align: "start",
+    sortable: false,
+    value: "ggr",
+  },
+  {
+    text: "NGR",
+    align: "start",
+    sortable: false,
+    value: "ngr",
+  },
+  {
+    text: "Bonus Deduction",
+    align: "start",
+    sortable: false,
+    value: "bonus_deduction",
+  },
+  {
+    text: "Rev Share %",
+    align: "start",
+    sortable: false,
+    value: "rev_share",
+  },
+  {
+    text: "Rev Share amount ",
+    align: "start",
+    sortable: false,
+    value: "rev_share_amount",
+  },
+  {
+    text: "Other promo discount",
+    align: "start",
+    sortable: false,
+    value: "other_promo_discount",
+  },
+  {
+    text: "Total Due",
+    align: "start",
+    sortable: false,
+    value: "total_due",
+  },
+];

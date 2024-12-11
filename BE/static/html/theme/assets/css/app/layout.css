@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+	background-color: #ffffff;
+	line-height: 24px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+	color: #000;
+    font-display: optional;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+.row {
+  margin-right: calc(var(--bs-gutter-x) * -.6);
+  margin-left: calc(var(--bs-gutter-x) * -.6);
+}
+
+.row > * {
+  padding-right: calc(var(--bs-gutter-x) * .6);
+  padding-left: calc(var(--bs-gutter-x) * .6);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding-right: var(--bs-gutter-x, 0.9rem);
+  padding-left: var(--bs-gutter-x, 0.9rem);
+}
+
+:root {
+  scroll-behavior: unset;
+}
+
+.btn-close:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ml-70 {
+	margin-left: 70px;
+}
+.mr-70 {
+	margin-right: 70px;
+} 
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.pb-60 {
+	padding-bottom: 60px;
+}
+
+.pb-55 {
+	padding-bottom: 55px;
+}
+
+.pb-70 {
+	padding-bottom: 70px;
+}
+
+.pt-100 {
+	padding-top: 100px;
+}
+
+.mb-25 {
+	margin-bottom: 25px;
+}
+
+.mb-55 {
+	margin-bottom: 55px;
+}
+
+.mb-60 {
+	margin-bottom: 60px;
+}
